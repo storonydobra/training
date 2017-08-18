@@ -1,0 +1,73 @@
+
+table {
+	border-collapse: separate;
+}
+.menu-top {
+	background-color:  #55415f;
+    width: 100%;
+    height: 30px;
+}
+
+.menu-top1 {
+	border-right: 1px solid white;
+	padding: 6px;
+	padding-bottom: px;	
+}
+
+.tablica-1 {
+     margin-left: 70%;
+     font-family: Georgia;
+     font-size: 11px;
+     font-weight: 400;
+     line-height: 13.2px;
+}
+
+.tablica-1 a {
+	color: white;
+	text-decoration: none;
+}
+
+.podpis {
+	font-family: Georgia;
+color:  #999999;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+width: 156px;
+height: 13px;
+padding-left: 20px;
+}
+
+.revelation {
+	font-family: Georgia;
+    color:  #000000;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.menu-select {
+	border-collapse: collapse;
+	border-bottom: 1px solid lightgray;
+    width: 40%;
+    margin-left: 49%;
+    padding-bottom: 1500px;
+}
+
+.menu-select td {
+	padding-bottom: 12px;
+}
+
+.menu-select a {
+	font-family: Georgia;
+color:  #55415f;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+width: 70px;
+height: 9px;
+}

@@ -1,73 +1,209 @@
-
-table {
-	border-collapse: separate;
+.main-page {
+	font-family: "Georgia-1";
 }
-.menu-top {
+@font-face; {
+	src: url("/fonts/georgia.ttf");
+	font-family: "Georgia-1";
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.menu-header-bg {
 	background-color:  #55415f;
     width: 100%;
     height: 30px;
 }
-
-.menu-top1 {
-	border-right: 1px solid white;
-	padding: 6px;
-	padding-bottom: px;	
+.menu-header-menu {
+	position: absolute;
+	right: 5%;
+	top: 5px;
 }
-
-.tablica-1 {
-     margin-left: 70%;
-     font-family: Georgia;
-     font-size: 11px;
-     font-weight: 400;
-     line-height: 13.2px;
-}
-
-.tablica-1 a {
+.menu-header-menu a {
 	color: white;
 	text-decoration: none;
 }
-
-.podpis {
-	font-family: Georgia;
-color:  #999999;
-font-size: 12px;
-font-weight: 400;
-line-height: 12px;
-text-align: left;
-width: 156px;
-height: 13px;
-padding-left: 20px;
+.menu-header-menu a:hover {
+    color: lightgreen;  
+    text-decoration: none; 
 }
-
-.revelation {
-	font-family: Georgia;
-    color:  #000000;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.menu-select {
-	border-collapse: collapse;
+.main-menu-menu {
+	position: absolute;
+	right: 5%;
+	top: 9%;
 	border-bottom: 1px solid lightgray;
-    width: 40%;
-    margin-left: 49%;
-    padding-bottom: 1500px;
+	color:  #333333;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 52px;
+    
 }
-
-.menu-select td {
-	padding-bottom: 12px;
+.main-menu-menu a{
+	color: #333333;
+	text-decoration: none;
+	padding-right: 11px;
 }
-
-.menu-select a {
+.main-menu-menu a:hover {
+	color: #55415f;
+	text-decoration: none;
+}
+.main-menu p {
+	color: lightgray;
+	padding-left: 16%;
 	font-family: Georgia;
-color:  #55415f;
-font-size: 12px;
+}
+.main-menu h2 {
+	padding-left: 16%;
+	font-family: Georgia;
+color:  #000000;
+font-size: 36px;
 font-weight: 400;
-line-height: 12px;
+line-height: 36px;
 text-align: left;
-width: 70px;
-height: 9px;
+}
+.slider {
+	background-color:  #ebebeb;
+    width: 100%;
+    height: 420px;
+}
+.picture-slider {
+	background-image: url("/pictures/imac.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 16%;
+	width: 488px;
+	height: 389px;
+	top: 186px;
+}
+.picture-slider-bridge {
+	background-image: url("/pictures/bridge.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 4.3%;
+    top: 5.3%;
+	width: 447px;
+    height: 251px;
+}
+
+.catchy-title {
+     position: absolute;
+     right: 250px;
+     top: 230px;
+}
+.catchy-title h1 {
+	color: #333333;
+}
+.catchy-title pre {
+	color: #9c9b9b;
+}
+.button {
+	border-radius: 4px;
+	background-color: #55415f;
+    color: #FFF !important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 0;
+    padding: 6px 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.advantages {
+	position: relative;
+
+}
+
+.advantages ul {
+	list-style-type: none;
+}
+.advantages li {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+.left-part {
+
+}
+.left-arrow {
+     background-image: url("/pictures/left-arrow.png");
+     background-size: cover;
+}
+.left-bg {
+	 background-image: url("/pictures/left-bg.png");
+	 background-size: contain;
+
+}
+.right-part {
+
+}
+.spisok {
+	width: 85%;
+	position: absolute;
+	left: 50%;
+	margin-left: -42%;
+	top: -67px;
+	z-index: 1;
+	background: white;
+}
+.adv-headers {
+	font-family: Georgia;
+    color:  #55415f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+.reviews {
+	position: relative;
+	top: 250px;
+}
+.reviews li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 24.5%;
+	text-align: center;
+}
+.reviews-header {
+	position: relative;
+	right: 24%;
+	left: 24%;
+	margin-bottom: 100px;
+	font-family: Georgia;
+    color:  #222222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    width: 750px;
+    text-align: center;
+}
+.reviews-headers {
+	position: absolute;
+	top: 150px;
+	font-family: Georgia;
+color:  #7f7d77;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+padding-bottom: 20px;
+}
+.reviews p {
+	font-family: Georgia;
+    color:  #807d77;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+}
+.spisok-2 a {
+	text-align: left;
 }

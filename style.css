@@ -65,6 +65,14 @@ text-align: left;
 	background-color:  #ebebeb;
     width: 100%;
     height: 420px;
+    z-index: 2;
+}
+.slider-bg-pic {
+    background-image: url("/pictures/tech-partner.jpg");
+    width: 100%;
+    height: 420px;
+	opacity: 0.1;
+	z-index: 1;
 }
 .picture-slider {
 	background-image: url("/pictures/imac.png");
@@ -75,6 +83,7 @@ text-align: left;
 	width: 488px;
 	height: 389px;
 	top: 186px;
+	z-index: 1;
 }
 .picture-slider-bridge {
 	background-image: url("/pictures/bridge.jpg");
@@ -96,7 +105,7 @@ text-align: left;
 	color: #333333;
 }
 .catchy-title pre {
-	color: #9c9b9b;
+	color: green;
 }
 .button {
 	border-radius: 4px;
@@ -128,26 +137,59 @@ text-align: left;
 	text-align: center;
 }
 .left-part {
+	position: absolute;
 
 }
 .left-arrow {
-     background-image: url("/pictures/left-arrow.png");
-     background-size: cover;
+     background-image: url(/pictures/left-arrow.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -32px;
+    left: 93px;
+    z-index: 2;
+    background-repeat: no-repeat;    
 }
 .left-bg {
-	 background-image: url("/pictures/left-bg.png");
-	 background-size: contain;
-
+	    background-image: url(/pictures/left-bg.png);
+	    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -41px;
+    left: 85px;
+    z-index: 1;
 }
 .right-part {
+	position: absolute;
 
 }
+.right-arrow {
+     background-image: url(/pictures/right-arrow.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -32px;
+    left: 1311px;
+    z-index: 2;
+    background-repeat: no-repeat;    
+}
+.right-bg {
+	    background-image: url(/pictures/right-bg.png);
+	    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -41px;
+    left: 1304px;
+    z-index: 1;
+}
 .spisok {
-	width: 85%;
+	width: 82.5%;
 	position: absolute;
 	left: 50%;
 	margin-left: -42%;
-	top: -67px;
+	top: -41px;
 	z-index: 1;
 	background: white;
 }
@@ -206,4 +248,11 @@ padding-bottom: 20px;
 }
 .spisok-2 a {
 	text-align: left;
+}
+.footer {
+	width: 90%;
+	height: 420px;
+}
+.footer li {
+	display: inline-block;
 }

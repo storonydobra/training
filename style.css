@@ -249,15 +249,33 @@ padding-bottom: 20px;
 	text-align: left;
 }
 .footer {
-
-	
+    width: 85%;
+    color: white;
+    font-family: Georgia;
 }
 .spisok-footer {
 	width: 82.5%;
-
+}
+.footer ul {
+	width: 100%;
+	position: absolute;
+	height: 274px;
+	background-color: black;
+}
+.footer li {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
 }
 
-.footer li {
-	display: inline-block;
-    
+#fishnet {
+	text-align: left;
+	color: violet;
+}
+#fishnet1 {
+	text-align: left;
+	color: gray;
+	font-size: 8px;
 }
